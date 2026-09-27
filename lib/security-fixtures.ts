@@ -7,10 +7,10 @@ import http from "http";
 import crypto from "crypto";
 
 // Synthetic Secrets (Testing Gitleaks / Secret Scanners)
-export const DUMMY_AWS_KEY = "TEST_SLACK_WEBHOOK_PLACEHOLDER";;
-export const DUMMY_GITHUB_PAT = "TEST_SLACK_WEBHOOK_PLACEHOLDER";;
-export const DUMMY_SLACK_WEBHOOK = "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX";
-export const DUMMY_STRIPE_KEY = "TEST_SLACK_WEBHOOK_PLACEHOLDER";;
+export const DUMMY_AWS_KEY = "AKIAIOSFODNN7EXAMPLE";
+export const DUMMY_GITHUB_PAT = "ghp_000000000000000000000000000000000000";
+export const DUMMY_SLACK_WEBHOOK = "[https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX](https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX)";
+export const DUMMY_STRIPE_KEY = "sk_test_000000000000000000000000";
 
 // SAST 1: Command Injection (child_process.exec)
 export function runSystemDiagnostic(inputQuery: string) {
