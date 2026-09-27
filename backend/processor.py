@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 import tempfile
 
 # Synthetic Fake Secret
-PY_DUMMY_SECRET = "TEST_STRIPE_API_KEY_PLACEHOLDER"
+PY_DUMMY_SECRET = "sk_live_000000000000000000000000"
 
 # SAST PY-10: Insecure Deserialization via pickle
 def unpack_session_pickle(raw_data: bytes):
